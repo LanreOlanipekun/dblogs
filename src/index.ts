@@ -48,7 +48,7 @@ export default class Log extends Models {
   }
 
   async search(text: string) {
-    //@ts-ignore
+    // @ts-ignore
     return this.logs.search(text);
   }
 }
